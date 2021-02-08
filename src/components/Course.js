@@ -2,11 +2,13 @@ import React from 'react';
 import '../styles/course.css'
 
 function Course(props) {
-  console.log(props)
-let { title, description, instructors, topics } = props.courses;
+
+  let { title, description, instructors, topics } = props.course;
+
 const instructorList = instructors.join(", ")
 const topicList = topics.join(", ");
   return(
+   
     <div className="course">
       <div className="title">
         <h2>{title}</h2>
