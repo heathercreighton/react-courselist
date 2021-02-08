@@ -1,0 +1,30 @@
+.flex-container{
+  display: flex;
+}
+
+
+.course {
+  background: #f5ece4;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #f5ece4;
+  border-radius: 15px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #cc6d1b;
+  border: 1px solid color #cc6d1b;
+  border-radius: 5px;
+}
+
+.detail-titles{
+  font-style: italic;
+}
+
+.details{
+  text-align: center;
+}
+

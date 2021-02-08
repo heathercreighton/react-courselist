@@ -1,0 +1,6 @@
+.flex-course{
+  display: flex;
+}
+.course-width {
+  flex-basis: 100%;
+}
