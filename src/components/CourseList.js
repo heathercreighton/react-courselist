@@ -7,7 +7,7 @@ function CourseList(props){
  console.log("courses:", courses)
   const courseCatalog = courses.map((course) => {
     return (
-      <div className="flex-container">
+      <div className="flex-container" key={courses.indexOf(course)}>
         <div className="course-width"><Course course={course} /></div>
       </div>
     )
